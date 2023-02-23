@@ -1,5 +1,4 @@
 function validate() {
-    console.log("HELLO");
     let uname = document.getElementById("name").value;
     let emailid = document.getElementById("email").value;
     let msg = document.getElementById("message").value;
