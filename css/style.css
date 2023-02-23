@@ -10,7 +10,13 @@
     position: fixed;
     width: 100%;
     z-index: 10;
-    max-width: 100%;
+    /* max-width: 100%; */
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.banner {
+    background-image: url(../images/background/agency-slider-04.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
 }
 
 .bookbtn {
@@ -23,11 +29,6 @@
 }
 .box {
     background-color: tomato;
-}
-.box h1 {
-    font-size: 44px;
-    font-weight: 900;
-    font-family: "Arial";
 }
 #para2 {
     font-size: 14px;
@@ -55,13 +56,15 @@ h2 {
 }
 .restaurant-menu-bg {
     background-image: url(../images/background/restaurant-menu-bg.jpg);
+    background-repeat: no-repeat;
     background-size: cover;
     /* height: 100vh; */
 }
-.menu-smalltext {
+.menu-smalltext p {
     font-size: 12px;
     color: #e98e07;
 }
+
 .chef-left {
     background-color: #ede6ba;
     padding: 100px;
@@ -74,8 +77,10 @@ h2 {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .book-table {
-    background-image: url(../images/background/hero-bg9.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url(../images/background/hero-bg9.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
     height: 100vh;
 }
 .amazing {
@@ -83,6 +88,7 @@ h2 {
 }
 .enjoyed-meal {
     background-image: url(../images/background/fitness-about-bg.jpg);
+    background-repeat: no-repeat;
     background-size: cover;
 }
 .meal-bg {
@@ -93,9 +99,17 @@ h2 {
     stroke: #dfae66;
 }
 .form-bg {
-    background-image: url(../images/background/hero-bg3.jpg);
-    opacity: 0.75;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url(../images/background/hero-bg3.jpg);
+    background-repeat: no-repeat;
+
     background-size: cover;
 }
-@media screen and(max-width:576px) {
+.sign {
+    font-family: Water Brush;
+    color: #e0a54b;
+    font-size: 40px;
+    letter-spacing: 4px;
+}
+@media screen and (min-width: 576px) {
 }
