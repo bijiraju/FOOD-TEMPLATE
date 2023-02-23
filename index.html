@@ -831,7 +831,10 @@
                         minus, quod.reprehenderit sunt similique nihil sed animi
                         minus, quod.
                     </p>
-                    <form action="tablebooked.html">
+                    <form
+                        action="tablebooked.html"
+                        onsubmit="return validate();"
+                    >
                         <div class="mb-3">
                             <input
                                 type="text"
@@ -859,16 +862,15 @@
                             ></textarea>
                             <p id="messageerror"></p>
                         </div>
+                        <div class="text-center">
+                            <button
+                                type="submit"
+                                class="btn btn-warning btn-lg rounded-0 px-4 text-white fw-bold exp"
+                            >
+                                BOOK TABLE
+                            </button>
+                        </div>
                     </form>
-                    <div class="text-center">
-                        <button
-                            type="submit"
-                            class="btn btn-warning btn-lg rounded-0 px-4 text-white fw-bold exp"
-                            onclick="return validate();"
-                        >
-                            BOOK TABLE
-                        </button>
-                    </div>
                 </div>
             </div>
             <div class="row g-0 justify-content-center">
