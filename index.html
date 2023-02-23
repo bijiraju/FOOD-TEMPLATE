@@ -831,11 +831,7 @@
                         minus, quod.reprehenderit sunt similique nihil sed animi
                         minus, quod.
                     </p>
-                    <form
-                        action="tablebooked.html"
-                        method="post"
-                        onsubmit="return validate();"
-                    >
+                    <form action="tablebooked.html">
                         <div class="mb-3">
                             <input
                                 type="text"
@@ -843,7 +839,7 @@
                                 id="name"
                                 placeholder="Your Name"
                             />
-                            <p id="nameerror">Hello</p>
+                            <p id="nameerror"></p>
                         </div>
                         <div class="mb-3">
                             <input
@@ -868,6 +864,7 @@
                         <button
                             type="submit"
                             class="btn btn-warning btn-lg rounded-0 px-4 text-white fw-bold exp"
+                            onclick="return validate();"
                         >
                             BOOK TABLE
                         </button>
